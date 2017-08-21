@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2017-08-20 14:01:29.820568729 UTC
+2017-08-21 12:01:32.847151036 UTC
 
 interface main@main:Main 8002
-  interface hash: 4404c55b3a3474ba74532671e1b90b40
-  ABI hash: 6e9dba7d27f77def651bbd49a87ad762
-  export-list hash: 20ca83831f0704dc0f560a9017d3ab99
+  interface hash: d6cb743d650811f9b31b958f6eb4ead4
+  ABI hash: ba095e213d7555aec3315bc50b676a3d
+  export-list hash: caa8ebe237048d9a1ceab01890655a1c
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: fac12a1002b9a6e900f6757b84767daf
   sig of: Nothing
@@ -14,19 +14,28 @@ interface main@main:Main 8002
 exports:
   Main.main
 module dependencies:
-package dependencies: base-4.9.1.0* ghc-prim-0.5.0.0
-                      integer-gmp-1.0.0.1
-                      timeout-0.1.0.0@timeout-0.1.0.0-94BDjdoI85nLcL5bVoU1WL
+package dependencies: array-0.5.1.1@array-0.5.1.1 base-4.9.1.0
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1 mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      timeout-0.1.0.0@timeout-0.1.0.0-CTXEEthBdlbADp32t1n2uE
+                      transformers-0.5.2.0@transformers-0.5.2.0
 orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
 family instance modules: base-4.9.1.0:Control.Applicative
-                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Const
-                         base-4.9.1.0:Data.Monoid base-4.9.1.0:Data.Type.Equality
-                         base-4.9.1.0:GHC.Generics base-4.9.1.0:GHC.IO.Exception
-                         base-4.9.1.0:GHC.TypeLits
+                         base-4.9.1.0:Data.Complex base-4.9.1.0:Data.Either
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
 import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
 import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
 import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
-import  -/  timeout-0.1.0.0@timeout-0.1.0.0-94BDjdoI85nLcL5bVoU1WL:Timeout 0cd74580e52dcf9e1fa443473e3d8a43
+import  -/  timeout-0.1.0.0@timeout-0.1.0.0-CTXEEthBdlbADp32t1n2uE:Timeout 0140b4fe3f465e079e96ac067048bacb
 d6831ef04cb9301b090dfae6f7bb7ec7
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
@@ -65,6 +74,6 @@ vectorised tycons:
 vectorised reused tycons:
 parallel variables:
 parallel tycons:
-trusted: safe
+trusted: none
 require own pkg trusted: False
 

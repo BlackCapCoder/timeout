@@ -1,0 +1,4 @@
+SET x TO 0
+IF x=1 THEN ( OUT x; HALT )
+SET x TO 1
+SEND x TO 0 AFTER x=1

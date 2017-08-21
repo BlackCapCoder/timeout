@@ -18,6 +18,7 @@ data Expr
   | Lt  Expr Expr
   | Geq Expr Expr
   | Leq Expr Expr
+  | Neg Expr
   | Num Int
   | Var String
   deriving (Eq, Show)
@@ -31,6 +32,7 @@ data Statement
   | In  String
   | Out Expr
   | Send String Expr Expr Expr
+  | Seq [Statement]
   | NOP
   deriving (Eq, Show)
 
@@ -148,3 +150,4 @@ testProg = initState
   , Send "a" (Num 0) (Num 0) (Eq (Var "a") (Num 0))
   , Out $ Var "a"
   ]
+

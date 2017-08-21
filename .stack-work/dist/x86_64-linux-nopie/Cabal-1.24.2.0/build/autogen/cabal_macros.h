@@ -21,6 +21,13 @@
   (major1) == 0 && (major2) <  5 || \
   (major1) == 0 && (major2) == 5 && (minor) <= 7)
 
+/* package megaparsec-6.1.1 */
+#define VERSION_megaparsec "6.1.1"
+#define MIN_VERSION_megaparsec(major1,major2,minor) (\
+  (major1) <  6 || \
+  (major1) == 6 && (major2) <  1 || \
+  (major1) == 6 && (major2) == 1 && (minor) <= 1)
+
 /* package mtl-2.2.1 */
 #define VERSION_mtl "2.2.1"
 #define MIN_VERSION_mtl(major1,major2,minor) (\
@@ -119,7 +126,7 @@
   (major1) == 2 && (major2) <  28 || \
   (major1) == 2 && (major2) == 28 && (minor) <= 0)
 
-#define CURRENT_COMPONENT_ID "timeout-0.1.0.0-EII2PtE1rVf4S4eEFAYaxP"
+#define CURRENT_COMPONENT_ID "timeout-0.1.0.0-BkuZiRQH5eaKYe8H9wCtCk"
 
-#define CURRENT_PACKAGE_KEY "timeout-0.1.0.0-EII2PtE1rVf4S4eEFAYaxP"
+#define CURRENT_PACKAGE_KEY "timeout-0.1.0.0-BkuZiRQH5eaKYe8H9wCtCk"
 
