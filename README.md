@@ -32,11 +32,11 @@ Parentheses can also be used to group multiple statements, delimited by `;`. All
 
 Print 1 and halt:
 ```
-SET x TO 0;
+SET x TO 0
 OUT x
-IF x=1 THEN HALT;
-SET x TO 1;
-SEND x TO 0 AFTER x=0;
+IF x=1 THEN HALT
+SET x TO 1
+SEND x TO 0 AFTER x=0
 ```
 
 Print the sum of two numbers, then take them as input:
