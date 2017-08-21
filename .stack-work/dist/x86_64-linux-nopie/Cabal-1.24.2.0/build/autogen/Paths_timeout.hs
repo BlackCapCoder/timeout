@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/home/blackcap/lang/timeout/.stack-work/install/x86_64-linux-nopie/lts-9.1/8.0.2/bin"
-libdir     = "/home/blackcap/lang/timeout/.stack-work/install/x86_64-linux-nopie/lts-9.1/8.0.2/lib/x86_64-linux-ghc-8.0.2/timeout-0.1.0.0-94BDjdoI85nLcL5bVoU1WL"
+libdir     = "/home/blackcap/lang/timeout/.stack-work/install/x86_64-linux-nopie/lts-9.1/8.0.2/lib/x86_64-linux-ghc-8.0.2/timeout-0.1.0.0-EII2PtE1rVf4S4eEFAYaxP"
 dynlibdir  = "/home/blackcap/lang/timeout/.stack-work/install/x86_64-linux-nopie/lts-9.1/8.0.2/lib/x86_64-linux-ghc-8.0.2"
 datadir    = "/home/blackcap/lang/timeout/.stack-work/install/x86_64-linux-nopie/lts-9.1/8.0.2/share/x86_64-linux-ghc-8.0.2/timeout-0.1.0.0"
 libexecdir = "/home/blackcap/lang/timeout/.stack-work/install/x86_64-linux-nopie/lts-9.1/8.0.2/libexec"
